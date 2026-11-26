@@ -19,7 +19,7 @@ CLIPS = [
     ("videos/v2/s3.mp4", 0.0, 5.0, []),
     ("videos/v2/s4.mp4", 0.0, 6.0, [("……아무 맛도 안 나.", 3.4, 6.0)]),
     ("videos/v2/s5.mp4", 0.0, 5.0, [("이제 안 춥지?", 2.4, 5.0)]),
-    ("videos/v2/s6.mp4", 0.0, 6.0, [("에… 에… 에취!!!", 0.6, 3.2)]),
+    ("videos/v2/s6.mp4", 0.0, 6.0, [("에… 에… 에취!!!", 0.2, 2.6)]),
     ("videos/v2/s7.mp4", 0.0, 6.0, [("우와… 달다!", 1.2, 3.4), ("이게 진짜 맛있네!", 3.6, 6.0)]),
 ]
 END_SECONDS = 4.0
@@ -67,8 +67,8 @@ def main():
                      f"borderw=4:bordercolor=white:x=(w-tw)/2:y=h*{y}:alpha='min(1,t/0.8)'")
     end = os.path.join(tmp, "end.mp4")
     vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS},"
-          f"boxblur=8:1,colorchannelmixer=rr=0.85:gg=0.85:bb=0.85:ra=0:ga=0:ba=0,"
-          f"drawbox=x=0:y=0:w=iw:h=ih:color=white@0.35:t=fill," + ",".join(draws) +
+          f"boxblur=8:1,"
+          f"drawbox=x=0:y=0:w=iw:h=ih:color=0xfff6ea@0.45:t=fill," + ",".join(draws) +
           f",fade=t=out:st={END_SECONDS - 0.8}:d=0.8")
     run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-t", str(END_SECONDS), "-i", still,
          "-f", "lavfi", "-t", str(END_SECONDS), "-i", "anullsrc=r=44100:cl=stereo",
