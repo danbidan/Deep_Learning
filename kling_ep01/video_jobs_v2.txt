@@ -1,0 +1,7 @@
+# EP.01 v2 (short ~44s plan) Kling job IDs
+s1_full_15s  AecXr69An69-1bqXrENHsAX_rK3u_JumsuFBGeCmh08e9KK0Az6KzHR6Zidvym1PGTaUP8pu  kling-video-v3_0_omni 15s 1080p audio
+s7_image     ATwFZoRo5lNcJ8NcYeDdlOSo1rX9Y-d74hLdPmDSxn9z4Pkso5BH3H-3TF2vmFGMXDZC3QHo  kling-image-v4_0 9:16
+s3           AZ9Cars2h1TT7c6eCpHIcYL6b5iTOwNrYivrlXHAcPiI4B5pjIityKBWXi4GY-KParNswAXM  kling-video-v3_0_omni 5s 1080p audio
+s4           AYkzhHeZKt028I2QPiGpcwQ6bOpsOn62B0HozwIgMWvijFIIvF1ZycnWSjv1yDdBwt30zj21  kling-video-v3_0_omni 6s 1080p audio
+s5           AcKbIgWXB5aUZbqOW4i7pRK3HmJrKUEJhN37e2qV3p_muEBHzmnq9Ac-ZTilk8U6fEiBmdgJ  kling-video-v3_0_omni 5s 1080p audio
+s6           AWQarQ2UigkX0jSJvvg6p3enMm9sjetiiAmbWDHYrHAcZNPzGtwl_bgC2pWpAWEyGoUryTST  kling-video-v3_0_omni 6s 1080p audio
