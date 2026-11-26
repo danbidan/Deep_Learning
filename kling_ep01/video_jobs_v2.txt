@@ -5,3 +5,4 @@ s3           AZ9Cars2h1TT7c6eCpHIcYL6b5iTOwNrYivrlXHAcPiI4B5pjIityKBWXi4GY-KParN
 s4           AYkzhHeZKt028I2QPiGpcwQ6bOpsOn62B0HozwIgMWvijFIIvF1ZycnWSjv1yDdBwt30zj21  kling-video-v3_0_omni 6s 1080p audio
 s5           AcKbIgWXB5aUZbqOW4i7pRK3HmJrKUEJhN37e2qV3p_muEBHzmnq9Ac-ZTilk8U6fEiBmdgJ  kling-video-v3_0_omni 5s 1080p audio
 s6           AWQarQ2UigkX0jSJvvg6p3enMm9sjetiiAmbWDHYrHAcZNPzGtwl_bgC2pWpAWEyGoUryTST  kling-video-v3_0_omni 6s 1080p audio
+s7           AbNh03pXNUqaEKq8PdD-xHKW_oqJaEtDkQ0DnrBEQ-h3HDN5O5QZjSWzcZqUnNvuHv-oP5RL  kling-video-v3_0 6s 1080p audio (first frame frames/v2/s7_ending.png)
